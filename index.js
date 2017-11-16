@@ -6,10 +6,10 @@ function lowerCaseDrivers(drivers){
 return newDrivers;
 }
 
-function nameToAttributes(){
+function nameToAttributes(drivers){
 
 }
 
-function attributesToPhrase(){
+function attributesToPhrase(drivers){
 
 }
