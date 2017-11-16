@@ -18,5 +18,8 @@ return newArray;
 }
 
 function attributesToPhrase(drivers){
-
+  const newList = drivers.map(function(person){
+    return `${person.name} is from ${person.hometown}`;
+   });
+return newList;
 }
